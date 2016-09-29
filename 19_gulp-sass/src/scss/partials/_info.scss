@@ -1,0 +1,61 @@
+// INFORMATION SECTION
+
+section {
+  position: relative;
+  overflow: hidden;
+  width: $main-width;
+  height: 339px;
+  margin: $center;
+ 
+  .info {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 40px;
+    padding-top: 40px;
+    width: 360px;
+
+  .info__number {
+    font-family: $main-font;
+    color: #e9e9ea;
+    font-size: 90px;
+    float: left;
+    height: 339px;
+    margin-right: 40px;
+  }
+
+  img {
+    margin-top: 25px;
+  }
+
+  .info__title {
+    margin: 16px 0 18px 0;
+    font-size: 23px;
+    font-weight: bold;
+    color: $main_color;
+  }
+
+  .info__text {
+    position: relative;
+    text-align: justify;
+    color: $main_color;
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+
+  .info__button {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: $main_color;
+  }
+
+  .info__button:hover {
+    color: $blue;
+  }
+  }
+
+  .info-3 {
+    margin-right: 0;
+  }
+}

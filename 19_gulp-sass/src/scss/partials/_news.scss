@@ -1,0 +1,181 @@
+// NEWS SECTION
+.news__section {
+  width: 1240px;
+  height: 545px;
+  background: #f7f7f7;
+// LATEST NEWS
+.news {
+  position: relative;
+  overflow: hidden;
+  width: $main-width;
+  margin: $center;
+  padding: 63px 0 80px 0;
+
+	.latest-news {
+	  position: relative;
+	  overflow: hidden;
+	  float: left;
+	  width: 560px;
+
+		.latest-news__title {
+		  font-family: $main-font;
+		  color: $main_color;
+      	  font-size: 1.6rem;
+     	  margin-bottom: 40px;
+		}
+
+		  .latest-news__box {
+		  	font-family: $main-font;
+		  	position: relative;
+		  	overflow: hidden;
+		  	color: $main_color;    
+
+        .date {
+          position: absolute;
+          top: 12px;
+          height: 80px;
+          width: 40px;
+          text-align: center; 
+        }
+
+        .month {
+          height: 40px;
+          background: $blue;
+          color: $white;
+          font: $main-font;
+          line-height: 40px;
+        }
+
+        .day {
+          height: 40px;
+          background: $orange;
+          color: $black;
+          font: $main-font;
+          line-height: 40px;
+        }
+		  		
+        img {
+		  float: left;
+		  margin-right: 30px;
+          margin-left: 15px;
+        }
+
+		    .latest-news--title {
+		      font-size: 1.1rem;
+		      font-weight: bold;
+		      margin-bottom: 10px;
+		    }	
+
+		    .latest-news--by {
+		      float: left;
+		      font-size: 0.9rem;
+		      margin-right: 10px;
+		       span {
+		        color: $blue;
+		       }
+		    }
+
+		    .latest-news--comments {
+		      overflow: hidden;
+		      font-size: 0.9rem;
+		    	span {
+		    	  color: $blue;
+		    	}
+		    }
+
+		    .latest-news--text {
+		      overflow: hidden;
+		      margin-top: 24px;
+		      font-size: 0.9rem;
+		      text-align: justify;
+		    }
+	    }
+
+		.latest-news__box--2 {
+		  margin-top: 30px;
+		}
+  }	
+
+// BANNERS PLACE
+		.banners {
+		  float: left;
+		  width: 360px;
+		  margin-left: 150px;
+
+			.banners__title {
+			  font-family: $main-font;
+			  font-size: 1.6rem;
+			  margin-bottom: 40px;
+			  color: $main_color;				
+			}
+
+			.banner {
+			  display: block;
+			  font-family: $main-font;
+			  position: relative;
+			  overflow: hidden;
+			  margin-bottom: 5px;
+
+				.banner__title {
+				  font-size: 16px;
+				  width: 100%;
+				  height: 40px;
+				  color: $white;
+				  background: $orange;
+				  border: 1px solid $white;
+				  color: $main_color;
+				  background: $white;
+				  border-color: #e8e8e8;
+						
+					.banner__title__plus {
+					  display: block;
+					  width: 40px;
+					  height: 40px;
+					  text-align: center;
+					  border-right: 1px solid #e8e8e8; 
+					  float: left;
+					  font-size: 25px;
+            		  cursor: pointer;
+					}
+
+					.banner__title__minus {
+					  display: none;
+					  width: 40px;
+					  height: 40px;
+					  text-align: center;
+					  border-right: 1px solid #e8e8e8; 
+					  float: left;
+					  font-size: 25px;
+					}
+
+					.banner__title__text {
+					  padding: 10px 0 0 60px;
+					}
+				}
+
+				.banner__content {
+				  display: none;
+				  margin: 15px 0 15px 40px;
+				  font-size: 13px;
+				}
+			}
+
+			.banner--modify {
+
+				.banner__title {
+				  color: $main_color;
+				  background: $white;
+				  border-color: #e8e8e8;
+
+					.banner__title__plus {
+					  border-color: #e8e8e8;
+					}
+				}
+
+				.banner__content {
+				  display: none;
+				}
+			}
+		}
+	}
+}

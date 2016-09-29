@@ -1,0 +1,53 @@
+// LOGOS SECTION
+
+.logos {
+	position: relative;
+	width: $main-width;
+	height: 240px;
+	background-color: $white;
+	margin: $center;
+	ul {
+    display: block;
+    float: left;
+	      a {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        top: 75px;
+        width: 160px;
+        height: 62px;
+      	}
+       		a:hover {
+    			opacity: 0.5;
+  				}
+
+      .logo_1 {
+        background: $url_logo 0 0 no-repeat;
+      }
+
+      .logo_2 {
+        left: 190px;
+        background: $url_logo -190px 0 no-repeat;
+      }
+
+      .logo_3 {
+        left: 410px;
+        background: $url_logo -410px 0 no-repeat;
+      }
+
+      .logo_4 {
+        left: 628px;
+        background: $url_logo -628px 0 no-repeat;
+      }
+
+      .logo_5 {
+        left: 830px;
+        background: $url_logo -830px 0 no-repeat;
+      }
+
+      .logo_6 {
+        left: 1009px;     
+        background: $url_logo -1009px 0 no-repeat;
+      }
+  }
+}

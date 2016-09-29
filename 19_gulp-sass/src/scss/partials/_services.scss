@@ -1,0 +1,63 @@
+// CERVICES SECTION
+
+.services_wrapper {
+  width: $wrapper-width;
+  margin: $center;
+  background-color: #2a2d32;
+  font-family: $main-font;
+}
+
+.services_content {
+  position: relative;
+  width: $main-width;
+  height: 503px;
+  margin: $center;
+
+  .services__title {
+	margin: 0px 0 55px 0;
+    padding-top: 49px;
+	color: $white;
+	font-size: 24px;
+  }
+}
+
+.services {
+  width: 260px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-right: 40px;
+
+  .services__img {
+    display: block;
+    height: 260px;
+	 text-decoration: none;
+	 background-image: url(../../build/img/img_service.png);
+  }
+
+  img {
+   height: 260px;
+   width: 260px;
+  }
+
+  img:hover {
+    opacity: 0.2;
+  }
+
+  .services__text {
+    text-decoration: none;
+    display: block;
+    margin: 22px auto 70px auto;
+    color: $white;
+    text-align: center;
+    font-size: 16px; 
+  }
+
+  .services__text:hover {
+	color: $orange;
+  }	
+}
+
+.services--4 {
+  margin-right: 0;
+}

@@ -1,0 +1,151 @@
+// MAIN LOGO
+
+header {
+  width: $main-width;
+  margin: $center;
+  margin-top: 40px;
+}
+
+// MAIN LOGO
+
+.header__logo {
+  position: relative;
+  overflow: hidden;
+  width: 205px;
+  height: 37px;
+  display: inline-block;
+  margin-bottom: 35px;
+  margin-left: 3px;
+  
+  img {
+    float: left;
+    height: 37px;
+    width: 205px;
+  }
+}
+
+// SOCIAL NETWORKS
+
+.header__networks {
+  float: right;
+  height: 16px;
+  width: 160px;
+  margin-top: 8px;
+
+  a {
+    background-image: url(../../build/img/sprite_soc.png);
+    display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 3px;
+    margin-left: 12px;
+  }
+
+  .facebook {
+    background-position: 0 0;
+  }
+  .facebook:hover {
+    background-position: 0 18px;
+  }
+
+  .twitter {
+    background-position: 116px 0px;
+  }
+  .twitter:hover {
+    background-position: 116px 18px;
+  }
+
+  .rss {
+    background-position: 372px 0;
+  }
+  .rss:hover {
+    background-position: 372px 18px;
+  }
+
+  .linkedin {
+    background-position: 484px 0;
+  }
+  .linkedin:hover {
+    background-position: 484px 18px;
+  }
+
+  .skype {
+    background-position: 597px 0;
+  }
+  .skype:hover {
+    background-position: 597px 18px;
+  }
+}
+
+// MENU
+
+.header__menu {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: $main-width;
+  height: 60px;
+  background: $main_color;
+
+  li {
+    list-style: none;
+    float: left;
+    width: 114px;
+    height: 60px;
+    border-right: 1px solid #181a1d; 
+    
+    .header__menu--active {
+      background-color: $blue;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    color: $white;
+    font: 14px 'Ubuntu Condensed', sans-serif;
+  }
+
+  li:hover {
+    background: $blue;
+    
+    a {
+      color: $orange;
+    }
+  }
+
+  .search {
+    float: right;    
+    height: 38px;
+    width: 240px;
+    border: 1px solid #181a1d;
+    background: #35383c;
+    margin: 9px 8px 0 0;
+    font: 12px 'Arial Regular', sans-serif;
+    padding-left: 5px;
+
+    input {
+      background: none;
+      border: none;
+      padding-top: 7px;
+      color: $white;
+	}
+  	
+  	.search__submit {
+  	  background: none;
+  	  border: none;
+  	  cursor: pointer;
+  	  background-image: url(../../build/img/search.png);
+  	  height: 14px;
+  	  width: 14px;
+  	  margin-top: 12px;
+  	  margin-left: 40px;
+      }
+  }
+  
+}

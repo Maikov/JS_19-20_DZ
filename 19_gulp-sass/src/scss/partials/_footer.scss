@@ -1,0 +1,134 @@
+// FOOTER
+
+footer {
+  background-color: $main-color;
+  width: $wrapper-width;	
+  height: 385px;
+}
+
+.footer_wrapper {
+  width: $main-width;
+  margin: $center;
+}
+
+.navigation-container {
+  padding: 60px 0 80px 0;
+  background-color: $main_color;
+
+	.navigation-box {
+	  width: $main-width;
+	  margin: 0 auto;
+	  position: relative;
+	  overflow: hidden;
+
+		.navigation {
+		  font-family: $main-font;
+		  float: left;
+		  margin-right: 40px;
+
+			.navigation__title {
+			  color: $white;
+			  font-size: 16px;
+			  margin-bottom: 50px;
+			}
+
+			.navigation__ul {
+
+				.navigation__li {
+				  font-family: 'Arial Regular', sans-serif;
+				  font-size: 13px;
+				  list-style: none;
+				  width: 260px;
+				  padding: 10px 0 10px 0;
+                  border-bottom: 1px solid #7d7e80;
+					a {
+					  text-decoration: none; 
+					  color: #7d7e80;
+					}
+					a:hover {
+					  color: $blue;
+					}
+				}
+
+				.navigation__li--last {
+				  border-bottom: none;
+				}
+			}
+		}
+
+		.navigation--4 {
+		  margin-right: 0;
+		}
+	}
+}
+
+.contacts {
+  position: relative;
+  background-color: #35383c;
+  width: $wrapper-width;	
+	
+	.contacts-box {
+	  position: relative;
+	  overflow: hidden;
+	  width: $main-width;
+	  margin: 0 auto;
+	  padding: 22px 0 20px 0;
+	  color: #6f7073;
+	  font-family: 'Arial Regular', sans-serif;
+	  font-size: 12px;
+
+		.location {
+		  text-align: center;
+		  vertical-align: center;
+		  width: 300px;
+		  margin-right: 25px;
+		  line-height: 20px;
+		  float: left;
+
+			img {
+			  width: 15px;
+			  height: 18px;
+			  float: left;
+			}
+		}
+
+		.phone {
+		  text-align: center;
+		  vertical-align: center;
+		  width: 125px;
+		  margin-right: 25px;
+		  line-height: 20px;
+		  float: left;
+
+			img {
+			  width: 12px;
+			  height: 18px;
+			  float: left;
+			}
+		}
+
+		.mail {
+		  text-align: center;
+		  vertical-align: center;
+		  width: 150px;
+		  margin-right: 25px;
+		  line-height: 20px;
+		  float: left;
+
+			img {
+			  width: 25px;
+			  height: 18px;
+			  float: left;
+			}
+		}
+		
+		.copyright {
+		  text-align: center;
+		  vertical-align: center;
+		  width: 107px;
+		  margin-right: 25px;
+		  margin-left: 300px;
+		  float: left;
+		}
+	}
+}
