@@ -131,6 +131,7 @@
 					  display: block;
 					  width: 40px;
 					  height: 40px;
+					  padding-top: 2px;
 					  text-align: center;
 					  border-right: 1px solid #e8e8e8; 
 					  float: left;
@@ -146,10 +147,12 @@
 					  border-right: 1px solid #e8e8e8; 
 					  float: left;
 					  font-size: 25px;
+					  cursor: pointer;
 					}
 
 					.banner__title__text {
 					  padding: 10px 0 0 60px;
+					  cursor: pointer;
 					}
 				}
 
@@ -157,6 +160,7 @@
 				  display: none;
 				  margin: 15px 0 15px 40px;
 				  font-size: 13px;
+				  text-align: justify;
 				}
 			}
 

@@ -17,7 +17,7 @@ $(function() {
   $('.slider_nav')
   .jcarouselPagination({
     item: function(page) {
-      return '<a class = "slider_page" href="#' + page + '"></a>';
+      return '<a class = "slider_page" href="#"></a>';
     }
   })
 
@@ -30,6 +30,7 @@ $(function() {
   });
 
 
+$('#first-banner-content').show();
 
 $('#first-banner-title').on('click',function(){
     $('.banner__content').hide();

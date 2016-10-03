@@ -400,6 +400,7 @@ section {
             display: block;
             width: 40px;
             height: 40px;
+            padding-top: 2px;
             text-align: center;
             border-right: 1px solid #e8e8e8;
             float: left;
@@ -412,13 +413,16 @@ section {
             text-align: center;
             border-right: 1px solid #e8e8e8;
             float: left;
-            font-size: 25px; }
+            font-size: 25px;
+            cursor: pointer; }
           .news__section .news .banners .banner .banner__title .banner__title__text {
-            padding: 10px 0 0 60px; }
+            padding: 10px 0 0 60px;
+            cursor: pointer; }
         .news__section .news .banners .banner .banner__content {
           display: none;
           margin: 15px 0 15px 40px;
-          font-size: 13px; }
+          font-size: 13px;
+          text-align: justify; }
       .news__section .news .banners .banner--modify .banner__title {
         color: #2a2d32;
         background: #ffffff;

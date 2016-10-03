@@ -45,10 +45,10 @@ gulp.task('html', function () {
 gulp.task('styles', function() {
     gulp.src(path.src.scss)
         .pipe(sass())
-        .pipe(autoprefixer('last 2 version'))
         .pipe(gulp.dest(path.build.css))
         .pipe(rename({suffix: '.min'}))
         .pipe(cssnano())
+        .pipe(autoprefixer('last 2 version'))
         .pipe(gulp.dest(path.build.css))
         .pipe(notify({ message: 'Styles task succesfull complete' }));
 });
